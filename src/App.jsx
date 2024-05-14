@@ -21,7 +21,7 @@ const App = () => {
       <h2>Looping with JSX</h2>
       <ul>
         {todos.map((todo, index) =>
-          <li key={index}>
+          <li>
             {todo.done ? `Task Completed - ${todo.text}` : todo.text}
           </li>
         )}
