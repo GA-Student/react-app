@@ -22,7 +22,7 @@ const App = () => {
       <ul>
         {todos.map((todo, index) =>
           <li>
-            {todo.done ? `Task Completed - ${todo.text}` : todo.text}
+            {todo.done ? }
           </li>
         )}
       </ul>
